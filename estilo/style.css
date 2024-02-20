@@ -54,6 +54,12 @@
 
 }
 
+.subtituloSemBg{ /*Subtitulo sem cor de fundo*/
+    font-weight:normal;
+    font-size: 1rem;
+    color: var(--verdePrincipal);
+    
+}
 
  /*Estilo da Barra de navegação*/
 
@@ -185,6 +191,23 @@ li.formataItem:last-child{
        
     
 }
+
+/*LINGUAGENS*/
+
+.areaLinguagens{
+    margin-top: 25px;
+    
+}
+
+.linguagensLinha{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid red;
+    
+    
+}
+
+
 /*Area dos Cards*/
 /*
 .cardsFormacao{
