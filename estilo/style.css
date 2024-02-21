@@ -66,6 +66,15 @@
     text-align: center;
 }
 
+/*Botões*/
+.botaoProjeto{
+    width: 90px;
+    padding: 10px 0;
+    background-color: var(--azulPrincipal);
+    border:none;
+    
+}
+
  /*Estilo da Barra de navegação*/
 
  /*Lista da Barra de navegação*/
@@ -240,4 +249,23 @@ li.formataItem:last-child{
     color: var(--verdePrincipal);
     margin-top: 8px;
     font-size: 1.1rem;
+}
+
+/*PORTIFÓLIO*/
+
+.containerPortifolio{
+    margin:0 16px;
+}
+
+.nomeProjeto{
+    font-weight:normal;
+    font-size: 30px;
+    color: var(--verdePrincipal);
+    
+}
+
+.paragrafoProjeto{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 10px;
 }
