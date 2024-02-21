@@ -208,13 +208,21 @@ li.formataItem:last-child{
 /*Configurando grid com areas*/
 .imagem1{
     grid-area: primeiraImagem;
+    text-align: center;
 }
 .imagem2{
     grid-area: segundaImagem;
+    text-align: center;
 }
 .imagem3{
     grid-area: terceiraImagem;
+    text-align: center;
     
+}
+
+.imagem4{
+    grid-area: quartaImagem;
+    text-align: center;
 }
 
 .linguagensLinha{
@@ -224,7 +232,8 @@ li.formataItem:last-child{
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     grid-template-areas: "primeiraImagem segundaImagem"
-                         "terceiraImagem terceiraImagem"
+                         "terceiraImagem quartaImagem";
+    row-gap: 20px;
 }
 
 .nomeLinguagem{
