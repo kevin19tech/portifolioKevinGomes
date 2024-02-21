@@ -56,9 +56,13 @@
 
 .subtituloSemBg{ /*Subtitulo sem cor de fundo*/
     font-weight:normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--verdePrincipal);
     
+}
+
+.centralizaTexto{
+    text-align: center;
 }
 
  /*Estilo da Barra de navegação*/
@@ -212,10 +216,17 @@ li.formataItem:last-child{
 }
 
 .linguagensLinha{
+    margin: 16px 0 16px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     grid-template-areas: "primeiraImagem segundaImagem"
                          "terceiraImagem terceiraImagem"
+}
+
+.nomeLinguagem{
+    color: var(--verdePrincipal);
+    margin-top: 8px;
+    font-size: 1.1rem;
 }
