@@ -58,6 +58,7 @@
     font-weight:normal;
     font-size: 1.2rem;
     color: var(--verdePrincipal);
+    margin-left: 16px;
     
 }
 
@@ -161,6 +162,7 @@ li.formataItem:last-child{
 
 .containerFormacao h2{
     margin-bottom: 16px;
+    margin-left: 16px;
 }
 /*EFEITO CARROUSEL*/
 
