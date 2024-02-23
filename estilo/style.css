@@ -18,11 +18,9 @@
  body{
      background-color: var(--pretoPrincipal);
      color: #ffffff;/*Cor padrão do texto*/
-     
-     
  }
 
- header{
+header{
     padding: 20px 16px 10px;
     border-bottom: 1px solid var(--azulPrincipal);
     display: flex; /*Deixar itens lado a lado*/
@@ -35,7 +33,9 @@
     
 }
 
-
+main{
+    padding: 0 16px;
+}
 
 /*Formatações Padrão*/
 .borderRadiusPadrao{
@@ -58,7 +58,7 @@
     font-weight:normal;
     font-size: 1.2rem;
     color: var(--verdePrincipal);
-    margin-left: 16px;
+    
     
 }
 
@@ -118,9 +118,7 @@ li.formataItem:last-child{
     
 }
 
-.container{
-    padding: 0 16px;
-}
+
 
 /*Container Principal*/
 
@@ -183,7 +181,7 @@ li.formataItem:last-child{
 
 .containerFormacao h2{
     margin-bottom: 16px;
-    margin-left: 16px;
+    
 }
 /*EFEITO CARROUSEL*/
 
@@ -266,7 +264,7 @@ li.formataItem:last-child{
 /*PORTIFÓLIO*/
 
 .containerPortifolio{
-    margin:25px 16px;
+    margin:25px 0;
 }
 
 .nomeProjeto{
@@ -317,4 +315,15 @@ li.formataItem:last-child{
 .formataLinkRede{
     color: #ffffff;
     font-size: 1.2rem;
+}
+
+.blocoDasRedes img{
+    height: 45px;
+}
+
+/*FOOTER*/
+
+footer{
+    border-top: 1px solid var(--azulPrincipal);
+    padding: 16px 0;
 }
