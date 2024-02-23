@@ -70,8 +70,9 @@
 .botaoProjeto{
     width: 90px;
     height: 40px;
-    background-color: var(--azulPrincipal);
-    border:none;
+    background-color: var(--pretoPrincipal);
+    border: 1px solid var(--azulPrincipal);
+    
     
     
 }
@@ -270,7 +271,7 @@ li.formataItem:last-child{
 
 .nomeProjeto{
     font-weight:normal;
-    font-size: 30px;
+    font-size: 1.8rem;
     color: var(--verdePrincipal);
     
 }
@@ -283,4 +284,37 @@ li.formataItem:last-child{
 
 .blocoBotoesProjetos{
     margin-top: 16px;
+}
+
+/*CONTATO*/
+
+.formulario{
+    display: none;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ /*Lista das Redes Sociais*/
+ .subtituloRedes{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+.formataItemRedes{
+    display: flex; 
+    align-items: center;  
+    margin-bottom: 20px;
+     
+}
+
+.formataLinkRede{
+    color: #ffffff;
+    font-size: 1.2rem;
 }
