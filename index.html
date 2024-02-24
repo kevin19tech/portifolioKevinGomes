@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
+    <!--Link dos Ícones do Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -13,9 +15,10 @@
     <header>
         <!--Logo-->
         <a href="#"><img src="./imagens/logo_desktop.png" alt="Logo-Kevin" height="70px"></a>
-
-        <!--Barra de Navegação-->
-        <nav>
+        <!--Ícone Hamburguer-->
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <!--Menu Hamburguer-->
+        <nav id="items" >
             <ul class="formataNav">
                 <li class="formataItem"><a class="formataLink" href="">Início</a></li>
                 <li class="formataItem"><a class="formataLink" href="#sobreMim">Sobre mim</a></li>
@@ -312,6 +315,16 @@
         
     </footer>
 
+    <script>
+        /*MenuHamburguer*/
+        function clickMenu(){
+            if(items.style.display == 'block'){
+                items.style.display = 'none'
+            }else{
+                items.style.display = 'block'
+            }
+        }
+    </script>
 
 
 
