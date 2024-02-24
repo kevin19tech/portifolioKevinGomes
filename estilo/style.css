@@ -20,16 +20,7 @@
      color: #ffffff;/*Cor padrão do texto*/
  }
 
-/*
-header{
-    padding: 20px 16px 10px;
-    border-bottom: 1px solid var(--azulPrincipal);    
-    position: fixed;
-    width: 100%;
-    background-color: var(--pretoPrincipal);
-    align-items: center;
-    
-}*/
+
 
 
 main{
@@ -96,17 +87,39 @@ li.formataItem{
 
 /*Links*/
 .formataLink{
+    display: block;
     text-decoration: none;
     color: var(--azulPrincipal);
-    padding-bottom: 08px;
-    font-size: 1.2rem;
+    padding: 8px;
+    font-size: 1rem;
+    border-bottom:1px solid var(--azulPrincipal);
     
 }
 
+
+
 /*MENU HAMBURGUER*/
+header{
+    padding: 16px;
+    
+    border-bottom: 1px solid var(--azulPrincipal);    
+    position: fixed;
+    width: 100%;
+    background-color: var(--pretoPrincipal);
+    
+    
+}
+
+.blocoLogoMenu{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+nav{
+    text-align: center;
+}
 i#burguer{
     display: block;
-    text-align: center;
     cursor: pointer;
 }
 
