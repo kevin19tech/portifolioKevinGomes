@@ -22,7 +22,7 @@
         </div>
         <!--Menu Hamburguer-->
         <nav id="items" style="display: none;">
-            <ul class="formataNav">
+            <ul class="formataNav" onclick="clickMenu()">
                 <li class="formataItem"><a class="formataLink" href="">Início</a></li>
                 <li class="formataItem"><a class="formataLink" href="#sobreMim">Sobre mim</a></li>
                 <li class="formataItem"><a class="formataLink" href="#formacao">Formação</a></li>
@@ -37,20 +37,20 @@
 
             <div class="container containerPrincipal">
                 <div class="perfilPrincipal">
-                    <img src="imagens/kevin-2.png" alt="imagemPerfilKevin" height="188">
+                    <img src="imagens/kevin.png" alt="imagemPerfilKevin" height="188">
                 </div>
                 <div>
                     <div class="segundoBloco">
                         <h2 class="textoPrincipal">
                             Olá! <br>
-                            Eu sou <span style="color: var(--azulPrincipal);">Kevin</span>,<br>
+                            Eu sou<br> <span style="color: var(--azulPrincipal);">Kevin</span>,<br>
                             <!--Usei span para aplicar a cor apenas ao meu nome-->
                             Programador<br>Web e Mobile
                         </h2>
-                        <!--
+                        
                         <button class="botaoPrincipal borderRadiusPadrao">
-                            <a href="#contato" style="color: var(--pretoPrincipal); text-decoration: none;font-size: 20px;">Entre em Contato</a>
-                        </button>-->
+                            <a href="#contato" style="color: var(--pretoPrincipal); text-decoration: none;">Entrar em Contato</a>
+                        </button>
                     </div>
                 </div>
     
@@ -66,7 +66,7 @@
             </a>
             <!--Área da Imagem-->
             <div class="areaPerfil">
-                <img src="imagens/kevin-2.png" alt="imagem Perfil Kevin" height="200">
+                <img src="imagens/kevin.png" alt="imagem Perfil Kevin" height="200">
             </div>
     
             <div class="textoSobreMim">
@@ -148,7 +148,7 @@
                 -->
     
     
-        <section class="containerFormacao">
+        <section class="containerFormacao" id="formacao">
             <!--Subtitulo-->
             <a name="#formacao">
                 <h2 class="subtitulo">Formação</h2>
@@ -159,12 +159,15 @@
                     <img src="./imagens/img01-Card.png" alt="Card 01">
                     <img src="./imagens/img02-Card.png" alt="Card 02">
                     <img src="./imagens/img03-Card.png" alt="Card 03">
+                    
+
+                    
     
             </section>
         </section>
     
         <section class="areaLinguagens">
-            <h2 class="subtituloSemBg">Trabalho com as Linguagens</h2>
+            <h2 class="subtituloSemBg">Possuo conhecimento nestas linguagens</h2>
     
             <div class="linguagensLinha">
                 <!--HTML-->
@@ -200,7 +203,7 @@
             <!--Subtitulo-->
             <a name="#portifolio"><h2 class="subtitulo">Portifólio</h2></a><br>
             <!--Projeto 1-->
-            <h2 class="nomeProjeto" style="margin-top: 35px;">Site Finans</h2><br>
+            <h2 class="nomeProjeto">Site Finans</h2><br>
             <div class="blocoProjeto">
                     <img src="imagens/img_projeto-1-finans.png" alt="projeto 1 - site finans" style="max-width: 100%;">
                     <div class="blocoDescricao-1">
@@ -236,17 +239,12 @@
                     </div> 
                 
             </div>
-    
-            
-            
-            
-    
         </section>
     
         <!--CONTATO-->
         <section id="contato" class="containerContato">
             <!--Subtitulo-->
-            <a name="#contato"><h2 class="subtitulo">Contato</h2></a><br>
+            <a name="#contato"><h2 class="subtitulo">Contato</h2></a>
             
                <div class="blocoContato">
                 <!--Formulário para contato-->
