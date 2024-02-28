@@ -1,0 +1,32 @@
+/*Configuração para outras telas*/
+
+
+
+/*Todas as demais mídias*/
+
+/*typical device brakpoints */
+/*
+Pequnas telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px*/
+
+
+/*Configuração de tablet*/
+@media screen and (min-width:768px) and (max-width:992px){
+    
+}
+
+/*Configuração de desktop*/
+@media screen and (min-width:992px) and (max-width: 1200px){
+    
+}
+
+/*Configuração de  grandes telas*/
+@media screen and (min-width:1200px){
+    
+
+}
+
+
