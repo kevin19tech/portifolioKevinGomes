@@ -11,7 +11,7 @@
     <title>Portifólio - Kevin Gomes</title>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <!--Cabeçalho-->
     <header>
         <div class="blocoLogoMenu">
@@ -22,7 +22,7 @@
 
         </div>
         <!--Menu Hamburguer-->
-        <nav id="items" style="display: none;">
+        <nav id="items">
             <ul class="formataNav" onclick="clickMenu()">
                 <li class="formataItem"><a class="formataLink" href="">Início</a></li>
                 <li class="formataItem"><a class="formataLink" href="#sobreMim">Sobre mim</a></li>
@@ -322,6 +322,14 @@
                 items.style.display = 'none'
             }else{
                 items.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho(){
+            if(innerWidth >= 768){
+                items.style.display = 'block'
+            }else{
+                items.style.display = 'none'
             }
         }
     </script>
