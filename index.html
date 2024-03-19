@@ -16,7 +16,7 @@
     <header>
         <div class="blocoLogoMenu">
             <!--Logo-->
-            <a href="#"><img src="./imagens/logo_desktop.png" alt="Logo-Kevin" height="40px"></a>
+            <a href="#"><img src="./imagens/logo_desktop.png" alt="Logo-Kevin" height="40px" class="logoDesktop"></a>
             <!--Ícone Hamburguer-->
             <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
 
@@ -38,22 +38,22 @@
 
             <div class="container containerPrincipal">
                 <div class="perfilPrincipal">
-                    <img src="imagens/kevin.png" alt="imagemPerfilKevin" height="188">
+                    <img src="imagens/kevin.png" alt="imagemPerfilKevin" height="188" class="imagemPrincipal">
                 </div>
-                <div>
+                
                     <div class="segundoBloco">
                         <h2 class="textoPrincipal">
                             Olá! <br>
-                            Eu sou<br> <span style="color: var(--azulPrincipal);">Kevin</span>,<br>
+                            Eu sou<br class="tirarBrDesktop"> <span style="color: var(--azulPrincipal);">Kevin</span>,<br>
                             <!--Usei span para aplicar a cor apenas ao meu nome-->
-                            Programador<br>Web e Mobile
+                            Programador<br class="tirarBrDesktop"> Web e <br style="display: none;" class="deixarBrDesktop">Mobile
                         </h2>
                         
                         <button class="botaoPrincipal borderRadiusPadrao">
                             <a href="#contato" style="color: var(--pretoPrincipal); text-decoration: none;">Entrar em Contato</a>
                         </button>
                     </div>
-                </div>
+                
     
             </div>
         </section>
@@ -323,6 +323,10 @@
             }else{
                 items.style.display = 'block'
             }
+            /*Usado para deixar sempre o menu aparecendo em telas a partir de 768px*/
+            if(innerWidth >= 768){
+                items.style.display = 'block'
+            }
         }
 
         function mudouTamanho(){
@@ -331,6 +335,7 @@
             }else{
                 items.style.display = 'none'
             }
+            
         }
     </script>
 
